@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         
         // fetch items from core data
+        // fetchPeople()
         fetchPeople()
     }
     @IBAction func addPeople(_ sender: Any) {
